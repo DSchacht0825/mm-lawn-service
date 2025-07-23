@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Test</title>
+    <style>
+        body { margin: 0; padding: 20px; }
+        img { max-width: 100%; height: auto; border: 2px solid red; }
+        .test { background: yellow; padding: 10px; margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Image Loading Test</h1>
+    
+    <div class="test">
+        <h2>Direct Image Tag:</h2>
+        <img src="images/hero/hero-lawn.jpg" alt="Test Image">
+    </div>
+    
+    <div class="test">
+        <h2>Background Image:</h2>
+        <div style="width: 400px; height: 300px; background-image: url('images/hero/hero-lawn.jpg'); background-size: cover; background-position: center; border: 2px solid blue;"></div>
+    </div>
+    
+    <div class="test">
+        <h2>File Path Check:</h2>
+        <p>Expected path: /Users/danielschacht/mm-lawn-service/images/hero/hero-lawn.jpg</p>
+    </div>
+</body>
+</html>
