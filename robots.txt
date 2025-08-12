@@ -4,9 +4,10 @@ Allow: /
 # Sitemap
 Sitemap: https://www.mmlawnservice.com/sitemap.xml
 
-# Disallow admin areas (if any)
+# Disallow admin areas and test files
 Disallow: /admin/
 Disallow: /private/
+Disallow: /test-image.html
 
 # Allow important crawling
 Allow: /images/
