@@ -48,20 +48,49 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <h1><a href="../index.html">M&M Lawn Service</a></h1>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>M&M</h2>
+                <span>Lawn Service</span>
             </div>
-            <ul class="nav-menu">
+            <ul class="nav-menu" id="navMenu">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html#services">Services</a></li>
-                <li><a href="../index.html#areas">Service Areas</a></li>
-                <li><a href="../blog.html">Blog</a></li>
+                <li class="dropdown">
+                    <a href="../index.html#services">Services</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../lawn-mowing-waco-tx.html">Lawn Mowing</a></li>
+                        <li><a href="../fertilization-services-waco.html">Fertilization</a></li>
+                        <li><a href="../landscaping-waco-texas.html">Landscaping</a></li>
+                        <li><a href="../index.html#services">All Services</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="../index.html#areas">Service Areas</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="../lawn-care-woodway-tx.html">Woodway, TX</a></li>
+                        <li><a href="../lawn-care-hewitt-tx.html">Hewitt, TX</a></li>
+                        <li><a href="../lawn-care-robinson-tx.html">Robinson, TX</a></li>
+                        <li><a href="../lawn-care-bellmead-tx.html">Bellmead, TX</a></li>
+                        <li><a href="../index.html#areas">All Areas</a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../blog.html" class="active">Blog</a></li>
+                <li><a href="../index.html#faq">FAQ</a></li>
                 <li><a href="../index.html#contact">Contact</a></li>
+                <li class="nav-cta">
+                    <a href="../index.html#contact" class="btn btn-primary">Get Free Quote</a>
+                </li>
             </ul>
-        </nav>
-    </header>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
 
     <main>
         <article class="blog-article">
