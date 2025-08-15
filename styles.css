@@ -2523,6 +2523,291 @@ p {
     }
 }
 
+/* Comprehensive Lawn Service Section Styles */
+.lawn-service-comprehensive {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8fffe 0%, #f0fdf4 100%);
+}
+
+.lawn-service-content {
+    margin-top: 48px;
+}
+
+.service-overview {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 48px;
+    margin-bottom: 64px;
+    align-items: start;
+}
+
+.service-overview-text h3 {
+    color: var(--primary-dark);
+    margin-bottom: 24px;
+    font-size: 1.75rem;
+}
+
+.lawn-service-benefits {
+    margin-top: 32px;
+}
+
+.benefit-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border: 1px solid #e5e7eb;
+}
+
+.benefit-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+.benefit-text h4 {
+    color: var(--text-dark);
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+
+.benefit-text p {
+    color: var(--text-medium);
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.service-overview-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.stat-card {
+    background: white;
+    padding: 24px;
+    border-radius: 16px;
+    text-align: center;
+    box-shadow: var(--shadow-md);
+    border: 2px solid var(--primary-light);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    display: block;
+    line-height: 1;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--text-medium);
+    margin-top: 8px;
+}
+
+.comprehensive-services {
+    margin-bottom: 64px;
+}
+
+.comprehensive-services h3 {
+    color: var(--primary-dark);
+    margin-bottom: 32px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+.service-categories {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.category-item {
+    background: white;
+    padding: 32px;
+    border-radius: 16px;
+    box-shadow: var(--shadow-md);
+    border: 1px solid #e5e7eb;
+}
+
+.category-item h4 {
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+
+.category-item ul {
+    list-style: none;
+    padding: 0;
+}
+
+.category-item li {
+    padding: 8px 0;
+    color: var(--text-medium);
+    border-bottom: 1px solid #f3f4f6;
+    position: relative;
+    padding-left: 20px;
+}
+
+.category-item li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.category-item li:last-child {
+    border-bottom: none;
+}
+
+.local-expertise {
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.local-expertise h3 {
+    color: var(--primary-dark);
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.local-expertise p {
+    color: var(--text-medium);
+    margin-bottom: 32px;
+    font-size: 1.1rem;
+}
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.expertise-item {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: var(--shadow-sm);
+    border-left: 4px solid var(--primary-color);
+    text-align: left;
+}
+
+.expertise-item strong {
+    color: var(--primary-dark);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.service-guarantee {
+    background: var(--primary-color);
+    border-radius: 20px;
+    padding: 48px;
+    text-align: center;
+    color: white;
+}
+
+.service-guarantee h3 {
+    color: white;
+    margin-bottom: 20px;
+    font-size: 1.75rem;
+}
+
+.service-guarantee p {
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 32px;
+    font-size: 1.1rem;
+}
+
+.guarantee-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin-bottom: 32px;
+}
+
+.guarantee-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+}
+
+.guarantee-cta {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.guarantee-cta .btn {
+    min-width: 200px;
+}
+
+.guarantee-cta .btn-outline {
+    border-color: white;
+    color: white;
+}
+
+.guarantee-cta .btn-outline:hover {
+    background: white;
+    color: var(--primary-color);
+}
+
+/* Responsive Design for Lawn Service Section */
+@media (max-width: 768px) {
+    .service-overview {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    
+    .benefit-row {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .service-overview-stats {
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+    }
+    
+    .service-categories {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+    
+    .expertise-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+    .guarantee-list {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .guarantee-cta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .service-guarantee {
+        padding: 32px 24px;
+    }
+}
+
 /* Print Styles */
 @media print {
     .navbar,
