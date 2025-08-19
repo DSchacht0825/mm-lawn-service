@@ -440,8 +440,8 @@ p {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 32px;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
     margin-bottom: 80px;
 }
 
@@ -1370,6 +1370,14 @@ p {
 /* Responsive Design */
 
 /* Tablet View (iPad) - 768px to 1024px */
+/* Large tablets and small laptops */
+@media (max-width: 1200px) and (min-width: 1025px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 28px;
+    }
+}
+
 @media (max-width: 1024px) and (min-width: 769px) {
     .container {
         padding: 0 32px;
