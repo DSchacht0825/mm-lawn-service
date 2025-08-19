@@ -277,7 +277,7 @@ Additional Details: ${data.message || 'None'}`);
     });
 
     // Observe scroll reveal elements
-    document.querySelectorAll('.section-header, .services-cta, .about-image, .areas-map').forEach(el => {
+    document.querySelectorAll('.section-header, .services-cta, .about-image').forEach(el => {
         el.classList.add('scroll-reveal');
         scrollRevealObserver.observe(el);
     });
