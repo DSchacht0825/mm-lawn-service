@@ -2493,7 +2493,7 @@ p {
 }
 
 /* Grid Improvements */
-.services-grid, .neighborhoods-grid, .plant-grid, .blog-grid,
+.neighborhoods-grid, .plant-grid, .blog-grid,
 .local-expertise-grid, .benefits-grid, .expertise-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -2542,7 +2542,7 @@ p {
         font-size: 2.5rem;
     }
     
-    .services-grid, .neighborhoods-grid, .plant-grid, .blog-grid,
+    .neighborhoods-grid, .plant-grid, .blog-grid,
     .local-expertise-grid, .benefits-grid, .expertise-grid {
         grid-template-columns: 1fr;
         gap: 24px;
