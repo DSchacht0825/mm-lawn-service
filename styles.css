@@ -440,9 +440,27 @@ p {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 32px;
     margin-bottom: 80px;
+}
+
+/* Ensure equal height cards */
+.services-grid .service-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Better spacing for service content */
+.services-grid .service-card .service-features {
+    flex-grow: 1;
+    margin-bottom: 24px;
+}
+
+/* Ensure CTA buttons stay at bottom */
+.services-grid .service-card .service-cta {
+    margin-top: auto;
 }
 
 .service-card {
