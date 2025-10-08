@@ -167,6 +167,13 @@ p {
     margin-top: -2px;
 }
 
+.logo-img {
+    height: 50px;
+    width: auto;
+    max-width: 200px;
+    object-fit: contain;
+}
+
 .nav-menu {
     display: flex;
     list-style: none;
@@ -1137,6 +1144,14 @@ p {
 .footer-logo p {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 24px;
+}
+
+.footer-logo-img {
+    height: 60px;
+    width: auto;
+    max-width: 250px;
+    object-fit: contain;
+    margin-bottom: 12px;
 }
 
 .footer-contact {
