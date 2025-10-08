@@ -168,10 +168,12 @@ p {
 }
 
 .logo-img {
-    height: 50px;
+    height: 40px;
     width: auto;
-    max-width: 200px;
+    max-width: 150px;
+    max-height: 40px;
     object-fit: contain;
+    display: block;
 }
 
 .nav-menu {
@@ -1147,11 +1149,13 @@ p {
 }
 
 .footer-logo-img {
-    height: 60px;
+    height: 50px;
     width: auto;
-    max-width: 250px;
+    max-width: 200px;
+    max-height: 50px;
     object-fit: contain;
     margin-bottom: 12px;
+    display: block;
 }
 
 .footer-contact {
