@@ -1,4 +1,4 @@
-# Redirect old location pages to service areas section
-/lawn-care-robinson-tx /#areas 301
-/lawn-care-woodway-tx.html /#areas 301
-/landscaping-waco-texas.html /#services 301
+# Redirect old location pages to homepage (Cloudflare Pages compatible)
+/lawn-care-robinson-tx / 301
+/lawn-care-woodway-tx.html / 301
+/landscaping-waco-texas.html / 301
